@@ -1,6 +1,6 @@
 /woah
 
-A Socratic learning loop for vibe coding. Bill & Ted style.
+A Socratic learning loop for vibe coding.
 You're vibe coding. You hit something you don't fully understand. You type /woah and Claude walks you through it — adaptive Socratic questioning, saves the concept, generates an HTML guide, lets you refine it, and closes the loop by fixing the code.
 What it does
 
@@ -26,14 +26,13 @@ Scope — broader context, related concepts
 Application — how it applies to your codebase
 
 Install
-Claude.ai / Claude Desktop
-
-Download SKILL.md from this repo
-Package it as a .skill file (or use the bundled one in releases, if present)
-Upload to Claude as a custom skill
 
 Claude Code
-Drop the woah/ folder into your skills directory. Claude will pick it up automatically.
+Tell Claude: "Install the woah skill from github.com/BobTells/Socrates into my .claude/skills folder."
+Then restart Claude Code and run /woah.
+
+Claude.ai / Claude Desktop
+Download woah/SKILL.md from this repo, zip the woah folder so SKILL.md sits at the zip root, rename to woah.skill, and upload via Settings → Capabilities → Skills.
 Setup
 On first run in a new project, the skill creates .woah/config and asks:
 
